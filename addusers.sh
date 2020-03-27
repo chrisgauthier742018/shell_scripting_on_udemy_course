@@ -4,7 +4,8 @@ read -p "Please enter a username: " USERNAME
 read -p "Please enter a password: " PASSWORD
 
 
-ADDUSER=/usr/sbin/adduser
+ADDUSER="/usr/sbin/adduser"
+
 USAGE() {
 	 echo "Please enter username and password"
 }
