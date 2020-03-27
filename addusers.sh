@@ -12,7 +12,7 @@ USAGE() {
 
 
 
-if [[ -z ${USERNAME} && -z ${PASSWORD} ]]
+if [[ -z ${USERNAME}  || -z ${PASSWORD} ]]
 then
 	USAGE
 	exit 1
