@@ -2,7 +2,7 @@
 
 HOST="www.cisco.com"
 
-while ping ${HOST} > /dev/null 
+while ping -c 5  ${HOST} > /dev/null 
 do
 	echo "db is still up"
 	sleep 5
